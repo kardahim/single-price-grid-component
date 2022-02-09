@@ -129,3 +129,19 @@ button {
 .attribution a {
     color: var(--pr-cyan)
 }
+
+@media screen and (max-width: 767px) {  
+    main {
+        width: 90%;
+        height: 100%;
+    }
+
+    .bottom {
+        flex-direction: column;
+    }
+    
+    footer {
+        position: absolute;
+        top: 95vh;
+    }
+}
